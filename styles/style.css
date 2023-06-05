@@ -568,3 +568,119 @@ a strong {
         border: 1px solid var(--orange1);
     }
 }
+
+@media (min-width: 1050px) {
+    
+    .navigation_item input {
+        width: auto;
+        height: auto;
+        font-size: 120%;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: 0.5s;
+    }
+    .navigation_item input:hover {
+        font-size: 130%;
+        filter: brightness(200%);
+    }  
+    .slider img {
+        min-width: 100vw;
+        max-width: 100vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        pointer-events: none;
+    }
+    .slide_text_container {
+        display: flex;
+        flex-direction: row;
+    }
+    .slide_header {
+        position: absolute;
+        top: 2%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        opacity: 1;
+        width: auto;
+        border-top: 3px solid var(--orange1);
+        border-right: 3px solid var(--orange1);
+        padding-top: 0.1em;
+        background-color: rgba(0, 0, 0, 0.8);
+        font-size: 200%;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--orange1);
+    }
+    .header1,
+    .header2,
+    .header4,
+    .header8 {
+        left: 5%;
+        animation: move_header_animation1 3s;
+    }
+    .header3 {
+        left: 90%;
+        animation: move_header_animation2 2s;
+    }
+    .header5,
+    .header6 {
+        left: 70%;
+        animation: move_header_animation2 2s;
+    }
+    .header7 {
+        left: 43%;
+    }
+    .descricao1,
+    .descricao2,
+    .descricao4,
+    .descricao8 {
+        left: 8%;
+    }
+    
+    .descricao3 {
+        left: 85%;
+    }
+    
+    .descricao5,
+    .descricao6 {
+        left: 50%;
+    }
+    
+    .descricao7 {
+        left: 44%;
+    } 
+    
+    .slide_paragrafo {
+        top: 15%;
+        width: 40%;
+        padding: 1em;
+        font-size: 120%;
+        margin: auto;
+    }
+    
+    .paragrafo1,
+    .paragrafo4 {
+        left: 50%;
+    }
+    
+    .paragrafo2,
+    .paragrafo8 {
+        left: 5%;
+    }
+    
+    .paragrafo3 {
+        left: 50%;
+    }
+    
+    .paragrafo5 {
+        left: 40%;
+        }
+    
+    .paragrafo6 {
+        left: 40%;
+    }
+    
+    .paragrafo7 {
+        top: 17%;
+        left: 50%;
+    }
+}
