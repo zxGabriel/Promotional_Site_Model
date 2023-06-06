@@ -274,6 +274,8 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     color: var(--orange1);
+    padding-top: 0.2em;
+    padding-bottom: 0.1em;
 }
 
 .paragrafo1,
@@ -684,5 +686,4 @@ a strong {
         left: 50%;
     }
     
-
 }
